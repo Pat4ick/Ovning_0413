@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23268EA0-F295-4FD5-B665-777E817985BC}</ProjectGuid>
+    <ProjectGuid>{F68BB840-9CD0-4345-B138-7078BD04E803}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOP_Person</RootNamespace>
-    <AssemblyName>Ovning_0413</AssemblyName>
+    <RootNamespace>OOP_Animals</RootNamespace>
+    <AssemblyName>OOP_Animals</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonHandler.cs" />
+    <Compile Include="Animal.cs" />
+    <Compile Include="Bird.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Flamingo.cs" />
+    <Compile Include="Hedgehog.cs" />
+    <Compile Include="Horse.cs" />
+    <Compile Include="Pelican.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Swan.cs" />
+    <Compile Include="Worm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

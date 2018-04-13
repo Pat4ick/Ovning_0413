@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ovning_0413
+namespace OOP_Person
 {
     /// <summary>
     /// 
