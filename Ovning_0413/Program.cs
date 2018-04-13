@@ -19,7 +19,7 @@ namespace Ovning_0413
             Console.WriteLine("Yes, I can access the private fields indireclty by using the public properties\n" +
                 $"I have set the age to \"49\" as an example and here i read the value back again - {person.Age}\n");
 
-
+            //
         }
     }
 }
