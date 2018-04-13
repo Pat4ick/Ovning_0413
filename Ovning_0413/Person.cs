@@ -9,7 +9,7 @@ namespace Ovning_0413
     /// <summary>
     /// 
     /// </summary>
-    class Person
+    public class Person
 
     {
         private int _age;
