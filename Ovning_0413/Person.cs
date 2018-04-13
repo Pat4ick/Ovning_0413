@@ -12,44 +12,44 @@ namespace Ovning_0413
     public class Person
 
     {
-        private int _age;
+        private int age;
 
         public int Age
         {
-            get { return _age; }
-            set { _age = value; }
+            get { return age; }
+            set { age = value; }
         }
 
-        private string _fName;
+        private string fName;
 
         public string FName
         {
-            get { return _fName; }
-            set { _fName = value; }
+            get { return fName; }
+            set { fName = value; }
         }
 
-        private string _lName;
+        private string lName;
 
         public string LName
         {
-            get { return _lName; }
-            set { _lName = value; }
+            get { return lName; }
+            set { lName = value; }
         }
 
-        private float _height;
+        private double height;
 
-        public float Height
+        public double Height
         {
-            get { return _height; }
-            set { _height = value; }
+            get { return height; }
+            set { height = value; }
         }
 
-        private float _weight;
+        private double weight;
 
-        public float Weight
+        public double Weight
         {
-            get { return _weight; }
-            set { _weight = value; }
+            get { return weight; }
+            set { weight = value; }
         }
 
 

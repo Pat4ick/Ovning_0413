@@ -11,12 +11,26 @@ namespace Ovning_0413
     /// </summary>
     public  class PersonHandler
     {
-        private  Person _person;
+        public  Person person;
 
         public void SetAge(Person pers, int age)
         {
-            _person = pers;
-            _person.Age = age;
+            person = pers;
+            person.Age = age;
         }
+
+        public Person CreatePerson(int age, string fname, string lname, double height, double weight)
+        {
+            person.Age = age;
+            person.FName = fname;
+            person.LName = lname;
+            person.Height = height;
+            person.Weight = weight;
+
+            return person;
+        }
+
     }
+
+    
 }
