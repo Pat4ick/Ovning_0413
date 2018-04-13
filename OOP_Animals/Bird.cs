@@ -17,5 +17,14 @@ namespace OOP_Animals
             set { flappingFrequency = value; }
         }
 
+        public static explicit operator Bird(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string Stats()
+        {
+            return Name + " " + Weight + " " + Age + " " + FlappingFrequency;
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace OOP_Animals
     /// </summary>
     public class Animal
     {
+        // Simple constructor
         public Animal()
         {
 
@@ -38,6 +39,11 @@ namespace OOP_Animals
         {
             get { return age; }
             set { age = value; }
+        }
+
+        public virtual string Stats()
+        {
+            return Name + " " + Weight + " " + Age;
         }
          
     }

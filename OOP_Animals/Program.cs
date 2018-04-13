@@ -22,10 +22,16 @@ namespace OOP_Animals
 
          */
 
+        
 
         static void Main(string[] args)
         {
-            var worm = new Worm
+
+            var animals = new List<Animal>();
+            var dogs = new List<Dog>();
+        
+
+        var worm = new Worm
             {
                 Color = Worm.C.brown
             };
@@ -47,7 +53,8 @@ namespace OOP_Animals
 
             var bird = new Bird
             {
-                FlappingFrequency = 60
+                FlappingFrequency = 60,
+                Age = 5
             };
 
             var pelican = new Pelican
@@ -64,6 +71,56 @@ namespace OOP_Animals
             {
                 HasShedGreyFeathers = false
             };
+
+            animals.Add(swan);
+            animals.Add(bird);
+            animals.Add(horse);
+
+            foreach(Animal animal in animals)
+            {
+                Console.WriteLine(animal.ToString());
+                Console.WriteLine(animal.Age);
+            }
+
+
+
+            /*
+                7. F: Försök att lägga till en häst i listan av hundar. Varför fungerar inte det?  
+                
+                Horse != Dog
+
+                8. F: Vilken typ måste listan vara för att alla klasser skall kunna lagras tillsammans? 
+                
+                Animal
+
+                11. F: Förklara vad det är som händer.
+
+                
+
+             */
+
+            foreach (Animal animal in animals)
+            {
+                
+
+                Console.WriteLine(animal.Stats());
+            }
+            /*
+                11.F: Förklara vad det är som händer.
+
+                Krashar då den måste castas från animal till rätt typ innan metoden anropas.
+                Ska testa det...
+
+
+            */
+
+
+
+
+            // dogs.Add(horse); /
+
+
+
 
         }
     }
