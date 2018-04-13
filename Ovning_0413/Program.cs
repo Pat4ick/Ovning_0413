@@ -29,7 +29,19 @@ namespace Ovning_0413
 
             Console.WriteLine($"The age is now changed to {person.Age}\n");
 
+            /*
+             *  3. Testing with additional method calls to 'PersonHandler'
+             */
 
+            Person pers1 = p.CreatePerson(12, "Zach", "Smith", 156, 32);
+            Person pers2 = p.CreatePerson(14, "Bin", "Gson", 150, 31);
+            Person pers3 = p.CreatePerson(8, "Rob", "Flat", 140, 22);
+
+            p.SetAge(pers1, 13);
+            p.SetWeight(pers2, 50);
+
+            Console.WriteLine($"{pers1.FName} is now {pers1.Age} years old");
+            Console.WriteLine($"{pers2.FName} has added some weight: {pers2.Weight} kgs now\n");
 
         }
     }
