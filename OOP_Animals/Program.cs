@@ -96,7 +96,7 @@ namespace OOP_Animals
                 
                 Animal
 
-                11. F: Förklara vad det är som händer.
+                
 
                 
 
