@@ -16,6 +16,9 @@ namespace OOP_Animals
             set { tailLength = value; }
         }
 
-
+        public string DogString()
+        {
+            return "Created in Dog";
+        }
     }
 }

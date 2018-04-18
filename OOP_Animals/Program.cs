@@ -75,6 +75,7 @@ namespace OOP_Animals
             animals.Add(swan);
             animals.Add(bird);
             animals.Add(horse);
+            animals.Add(dog);
 
             foreach(Animal animal in animals)
             {
@@ -86,6 +87,8 @@ namespace OOP_Animals
 
             /*
                 7. F: Försök att lägga till en häst i listan av hundar. Varför fungerar inte det?  
+
+               // dogs.Add(horse); /
                 
                 Horse != Dog
 
@@ -115,11 +118,29 @@ namespace OOP_Animals
             */
 
 
+            /*
+             * 
+                12. Skriv ut ​Stats() ​metoden enbart för alla hundar genom en foreach på  ​Animals. 
+
+                15. F: Varför inte?
+
+                Behöver casts till Dog först: Se nedan..
+             *
+             */
 
 
-            // dogs.Add(horse); /
+            foreach (Animal animal in animals)
+            {
+               
+                if(animal.GetType() == typeof(Dog))
+                {
+                    Console.WriteLine("Found an instance of Dog: " + animal.ToString());
 
+                    Console.WriteLine(((Dog)animal).DogString());
+                }
+            }
 
+            
 
 
         }
