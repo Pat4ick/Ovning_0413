@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning_0413", "Ovning_0413\Ovning_0413.csproj", "{23268EA0-F295-4FD5-B665-777E817985BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inkapsling", "Ovning_0413\Inkapsling.csproj", "{23268EA0-F295-4FD5-B665-777E817985BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Animals", "OOP_Animals\OOP_Animals.csproj", "{F68BB840-9CD0-4345-B138-7078BD04E803}"
 EndProject
